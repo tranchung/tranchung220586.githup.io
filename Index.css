@@ -1,0 +1,75 @@
+body{
+	background-image:url("anh/image/titan.jpg");
+}
+
+.menubar img {
+	position: absolute;
+}
+* {
+	max-width: 1000px;
+ 	margin:auto;
+ 	padding:0;
+}
+.logo img {
+	height : 300px;
+	width: 1200px;
+	max-width: 100%;
+	max-height: 300px;
+
+}
+.menubar ul {
+  background: #1F568B;
+  list-style-type: none;
+  text-align: center;
+ 
+}
+
+
+.menubar ul li {
+  color: #f1f1f1;
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 20px;
+  position: relative;
+}
+
+.menubar ul li a{
+	color:white;
+	text-decoration: initial;
+	display: block;
+}
+
+.menubar ul li a:hover {
+
+	background-color: white;
+	color:#333;}
+
+.menubar ul li .submenu {
+	display: none;
+	position:absolute;
+}
+.menubar li:hover .submenu {
+
+ display: block;
+}
+.submenu li {
+ margin-left: 0 !important;
+}
+.menubar{}
+	  /*margin-left: 185px;
+    	//width: 1000px;*/
+
+ .hang2 img{
+ 		max-width:33%;
+ 		height: 300px;
+ 		margin-top:30px;
+ }
+ #chat img{
+	position: fixed;
+	width:100px !important;
+	 right: 30px;
+	 bottom: 40px; 
+
+}
